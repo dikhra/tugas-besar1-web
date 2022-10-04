@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+  position: sticky;
+}
+
+.navbar ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+.navbar img {
+  margin-left: 50px;
+  width: 100px;
+  float: left;
+  padding: 10px;
+  width: 150px;
+}
+
+.navbar li {
+  display: inline;
+  float: right;
+}
+
+.navbar li a {
+  margin-top: 8px;
+  font-size: 30px;
+  display: block;
+  color: #233565;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  color: #8bd8bc;
+}
+
+.banner {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  padding: 485px;
+  background-color: #233565;
+  text-align: center;
+  color: white;
+  background-size: contain;
+  background-position: center;
+}
+
+.about {
+  padding: 25px 100px 25px 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: white;
+  color: #233565;
+}
+
+.about img {
+  float: right;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.about p {
+  text-align: justify;
+  margin: 15px;
+}
+
+.about .skills {
+  margin: auto;
+  font-size: 40px;
+  align-items: center;
+  text-align: center;
+}
+
+.biodata {
+  padding: 25px 100px 25px 100px;
+  background-color: #233565;
+  text-align: center;
+  color: white;
+}
+
+table {
+  font-size: xx-large;
+  width: 100%;
+  font-family: sans-serif;
+  color: #444;
+  border-collapse: collapse;
+  border: 1px solid #f2f5f7;
+  background-color: lightgrey;
+}
+
+table tr th {
+  background: #8bd8bc;
+  color: #fff;
+  font-weight: normal;
+}
+
+table,
+th,
+td {
+  padding: 8px 20px;
+  text-align: center;
+}
+
+table tr:hover {
+  background-color: #f5f5f5;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.kontak {
+  border-radius: 5px;
+  background-color: white;
+  padding: 25px 100px 25px 100px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+::placeholder {
+  font-size: 20px;
+}
+
+label {
+  font-size: 30px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: none;
+}
+
+input[type="submit"] {
+  font-size: 20px;
+  background-color: #8bd8bc;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-instagram {
+  background: #55acee;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #0072b1;
+  color: white;
+}
+
+footer {
+  background-color: #8bd8bc;
+  font-size: x-large;
+  color: #233565;
+  padding: 5px;
+  text-align: center;
+}
